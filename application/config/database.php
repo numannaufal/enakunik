@@ -48,13 +48,13 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = 'ap-cdbr-azure-east-b.cloudapp.net';
 //$db['default']['username'] = 'root';
 //$db['default']['password'] = '';
 //$db['default']['database'] = 'enakunik';
-$db['default']['username'] = 'k3928327_numan';
-$db['default']['password'] = 'numan';
-$db['default']['database'] = 'k3928327_enakunik';
+$db['default']['username'] = 'bef12b62a56569';
+$db['default']['password'] = 'df65cc73';
+$db['default']['database'] = 'cdb_133bb96167';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

@@ -15,7 +15,7 @@
 |
 */
 //$config['base_url']	= 'http://localhost/project/enakunik';
-$config['base_url']	= 'http://numannaufal.com/enakunik';
+$config['base_url']	= 'http://www.enakunik.com';
 
 /*
 |--------------------------------------------------------------------------
