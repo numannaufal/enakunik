@@ -1,0 +1,492 @@
+ * {
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+
+@font-face {
+	font-family:  harlow;
+	src:url('fonts/harlow.ttf');
+}
+
+@font-face {
+	font-family: segoepr;
+	src:url('fonts/segoepr.ttf');
+}
+
+@font-face {
+	font-family: segoeui;
+	src:url('fonts/segoeui.ttf');
+}
+
+@font-face {
+	font-family: rockwell;
+	src:url('fonts/ROCK.TTF');
+}
+
+
+body {
+	margin: auto;
+	background-color: #ffdda6;
+}
+
+p {
+	margin:0;
+}
+
+header {
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: #ffc278;
+}
+
+.header {
+	width: 960px;
+	margin: auto;
+}
+
+.headinfo {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.headinfo p {
+	margin: 0;
+}
+
+.headinfo .search{
+	height: 20px;
+	width: 100px;
+	position: relative;
+	top:5px;
+}
+
+.search-submit {
+	border-radius: 5px;
+	font-size: 12px;
+	position: relative;
+}
+
+
+.cartnav a {
+	color: black;
+	background-color: #f99f1c;
+	font-family: segoepr;
+	font-size: 18px;
+	padding: 10px;
+	padding-top: 24px;
+	padding-bottom: 35px;
+	position: relative;
+	top:30px;
+
+}
+
+.cupkabarunik {
+	text-align: left;
+	text-align: justify;
+}
+
+.cupkabarunik p, .cupkabarunik h2 {
+	max-width: 520px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.twitter-box {
+	position: relative;
+	left: -80px;
+}
+
+nav {
+	text-align: center;
+	margin: auto;
+	font-family: segoepr;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+nav li {
+	display: inline;
+	padding:20px 1.1em;
+}
+
+
+nav a {
+	color:black;
+}
+
+nav li:hover a {
+	text-decoration: none;
+	color:#E56951;
+}
+
+nav hr {
+	color:#f99f1c;
+	background-color: #f99f1c;
+	border-color: #f99f1c;
+	height: 5px;
+	
+	
+}
+
+footer hr {
+	color:grey;
+	border-color: grey;
+	color :grey;
+	height: 1px;
+}
+
+footer {
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 10pt;
+	font-family: segoeui;
+}
+
+.menu {
+	margin-top: -20px;
+	margin-bottom:25px;
+	color:black;
+	font-family: rockwell;
+	background-color: #f99f1c;
+}
+
+.menu .parent-cat {
+	font-size: 12px;
+	position: relative;
+	left:-20px;
+}
+
+.menu .side {
+	background-color: white;
+	padding-left: 20px;
+
+}
+
+
+.menu a {
+	font-size: 1em;
+	color:black;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color:#E56951;
+}
+
+.menu ul {
+	margin:20px 0;
+	margin-left: 20px;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.menu .row-fluid {
+	background-color: white;
+
+}
+
+.menu .content{
+	padding-left: 50px;
+	padding-right: 25px;
+	margin-right: -90px;
+	background-color: white;
+
+
+}
+
+.menu .content hr {
+	color:black;
+	background-color: black;
+	border-color: black;
+	height: 1px;
+	margin: 0 20px;
+
+}
+
+.content {
+	text-align: center;
+	font-family: courier;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+.content hr {
+	color:black;
+	background-color: black;
+	border-color: black;
+	height: 1px;
+	margin: 0 50px;
+}
+
+.content .row {
+	margin-top: 30px;
+}
+
+.alert {
+	margin: 0 50px;
+}
+
+.chart-button {
+	font-size: 1.5em;
+	color:white;
+	background-color: #1D9995;
+	padding: 5px 120px;
+	margin-right: 60px;
+}
+
+.chart-button:hover {
+	color:white;
+	text-decoration: none;
+}
+
+.product-detail {
+	margin-left: 60px;
+	margin-right: 20px;
+	text-align: justify;
+}
+
+.product-detail h5 {
+	margin-bottom: 0;
+}
+
+.product-detail h4 {
+	margin-bottom: 2em;
+}
+
+.cart {
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom:25px;
+	background-color: #f99f1c;
+}
+
+.cart .span4 {
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.cart-content table {
+	margin: 0 auto;
+}
+
+.cart-content table td, th {
+	padding: 5px 20px;
+}
+
+.cart-content thead th {
+	font-weight: bold;
+	background-color: #EFE8D5;
+}
+
+.update-button {
+	background-color: #EFE8D5;
+	padding: 10px;
+	color:black;
+}
+
+.checkout-button {
+	background-color: #F4A44D;
+	padding: 15px;
+	color:white;
+}
+
+.space-to-cart {
+	margin-top: 50px;
+}
+
+.payment-button {
+	margin-top: 30px;
+	background-color: #F4A44D;
+	padding: 10px;
+	color:white;
+	font-family: courier;
+}
+
+.payment table {
+	margin: 0 auto;
+}
+
+.payment table td, th {
+	padding: 5px 20px;
+}
+
+.payment thead th {
+	font-weight: bold;
+	background-color: #EFE8D5;
+}
+
+b	font-weight: bold;
+	background-color: #EFE8D5;
+}
+
+.deadline {
+	color:red;
+	margin-bottom: 20px;
+}
+
+.payment-conclusion {
+	background-color: #B7EDEB;
+	padding: 20px;
+	margin: 20px auto;
+	width: 500px;
+}
+
+.img-mandiri {
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+
+.about {
+	text-align: justify;
+	margin : 0 50px;
+}
+
+.contact .span4 {
+	text-align: left;
+	margin-left:-100px;
+	margin-top: -15px;
+	font-size: 1.5em;
+}
+
+.contact .span4 p {
+	margin-bottom: 5px;
+}
+
+.contact .span8 {
+	margin-left: 70px;
+}
+
+.term {
+	text-align: justify;
+	font-family: arial;
+}
+
+.term ol li {
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.term ol li ul li {
+	margin-left: 5px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+}
+
+.product-list img {
+	width: 200px;
+	height: 200px;
+}
+
+.product-list a {
+	text-decoration: none;
+	color:black;
+}
+
+.product-list img:hover {
+	-webkit-transition: all .2s ease-in-out;
+	border: 5px solid orange;
+}
+
+.process {
+	width: 30px;
+}
+
+.bxslider img {
+	width: 960px;
+	height: 300px;
+}
+
+.bxslider {
+	margin:0;
+	padding: 0;
+
+}
+
+.nav-footer {
+	text-align: center;
+	margin: auto;
+	margin-left: -20px;
+	font-family: segoeui;
+	font-size: 12pt;
+}
+
+.nav-footer li {
+	display: inline;
+	padding:20px 1.1em;
+}
+
+
+.nav-footer a {
+	color:black;
+}
+
+.nav-footer li:hover a {
+	text-decoration: none;
+	color:#E56951;
+}
+
+.nav-footer hr {
+	color:#f99f1c;
+	background-color: #f99f1c;
+	border-color: #f99f1c;
+	height: 5px;	
+}
+
+.faq {
+
+}
+
+.faq h4, .faq p, .blog h4, .blog p {
+	font-family: arial;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.menu-detail {
+	margin-top: -20px;
+	margin-bottom:25px;
+	background-color: #f99f1c;
+	color:black;
+	font-family: rockwell;
+}
+
+.menu-detail a {
+	font-size: 1.3em;
+	color:black;
+	text-decoration: none;
+}
+
+.menu-detail a:hover {
+	color:#E56951;
+}
+
+.menu-detail ul {
+	margin:20px 0;
+	margin-left: 110px;
+}
+
+.blog li {
+	list-style: none;
+}
+
+.blog ul {
+	font-weight: bold;
+}
+
+.blog-side {
+	text-align: left;
+	margin-left: -15px;
+}
